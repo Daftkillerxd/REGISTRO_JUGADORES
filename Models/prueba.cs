@@ -10,5 +10,7 @@ namespace practica1_viru.Models
 
 
         public string prueba1 { get; set; }
+        public string prueba2 { get; set; }
+
     }
 }

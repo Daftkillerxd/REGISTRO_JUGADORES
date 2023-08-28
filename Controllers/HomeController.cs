@@ -34,7 +34,7 @@ public class HomeController : Controller
             rspt = ex.Message;
         }
 
-        ViewData["Message"] = rspt;
+        ViewData["Message"] = rspt+"";
         return View("Index");
     }
 

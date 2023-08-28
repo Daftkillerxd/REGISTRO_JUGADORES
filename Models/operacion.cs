@@ -55,7 +55,7 @@ namespace practica1.Models
                             }
 
                     }else{
-                        throw new ArgumentException("Ingrese el equipo");
+                        throw new ArgumentException("Ingrese el equipo de futbol");
                     }
                 }else{
                     throw new ArgumentException("Ingrese la edad");
